@@ -7,20 +7,13 @@
   left: 175px;
 }
 
-{
-  position: absolute;
-  z-index: 1;
-  top: 315px;
-  left: 175px;
-}
-
 
 /* Select the image with class of emerald */
 
 
 /*selector for emerald goes here */
 
-{
+.emerald {
   position: absolute;
   z-index: 2;
   top: 350px;
@@ -33,7 +26,7 @@
 
 /*selector for sapphire goes here */
 
-{
+#sand img{
   position: absolute;
   z-index: 5;
   top: 315px;
@@ -46,7 +39,7 @@
 
 /*selector for yellow diamond goes here */
 
-{
+#ocean + img{
   position: absolute;
   z-index: 4;
   top: 325px;
@@ -59,7 +52,7 @@
 
 /*selector for diamond goes here */
 
-{
+img[alt="Diamond"] {
   position: absolute;
   z-index: 3;
   top: 300px;

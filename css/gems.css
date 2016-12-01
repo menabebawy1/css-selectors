@@ -52,7 +52,7 @@
 
 /*selector for diamond goes here */
 
-img[alt="Diamond"] {
+img[alt="Diamond"]{
   position: absolute;
   z-index: 3;
   top: 300px;
